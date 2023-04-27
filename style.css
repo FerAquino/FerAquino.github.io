@@ -1,0 +1,49 @@
+/*Este es un comentario*/
+body{
+    background-image: url('https://image.freepik.com/vector-gratis/cute-gatito-gato-dibujos-animados-doodle-fondo-pantalla_40564-181.jpg'); /*Para poner una imagen de fondo*/
+    backdrop-filter: blur(2px); /*Para aplicar un difuminado*/
+    color: rgb(223, 25, 173); /*Para cambiar el color de la letra*/
+    font-family: 'Sono', sans-serif; /*Esto es para cambiar el tipo de letra*/
+    font-size: large;
+    display: flex; /*Esto vuelve flexible los elementos*/
+    justify-content: center; /*Esto centra los elementos*/
+}
+
+/*Si quiero cambiar un elemento basta con poner el nombre del elemento y abrir llaves*/
+/*Ejemplo: Cambiar el color de los párrafos*/
+.indice li{
+    color: black;
+    font-size: large;
+}
+.indice a{
+    color: black;
+    font-size: large;
+}
+p{
+    color: rgb(113, 62, 233);
+    font-size: large;
+}
+
+li{
+    font-size: large;
+    color: black;
+}
+/*Si quiero cambiar algo en particular entonces en html se crea una clase y se llama a la clase con un punto*/
+.titulo-web{
+    color: black;
+    font-size: xx-large;
+}
+
+img{
+    width: 250px; /*width es el ancho*/
+    height: 200px; /*height es la altura*/
+}
+
+a{
+    color: rgb(20, 73, 245);
+}
+
+label{
+    font-size: large;
+    color: black;
+}

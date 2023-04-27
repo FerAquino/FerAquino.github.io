@@ -1,0 +1,127 @@
+<!--María Fernanda Aquino Cruz-->
+<!-- Esto es un comentario -->
+<!-- DOCTYPE le dice al navegador que es un archivo html -->
+<!DOCTYPE html>
+<!-- <..> Marca el inicio de la etiqueta -->
+<html lang="es">
+    <head>
+    <title> Web gatuna </title>
+    <!-- Para conectar css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Para agregar tipos de letras de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap" rel="stylesheet">
+    </head>
+<!-- Dentro de body va todo lo que el usuario ve -->    
+    <body>
+<!-- Div es para hacer una división --> 
+        
+       <!-- <div>
+            <h1> Hola, mundo! </h1>
+            <h2> Hola, mundo! mas chiquito</h2>
+            <h3> Hola, mundo! más más chiquito </h3>
+            <h4> Hola, mundo! más más más chiquito </h4>
+            <h5> Hola, mundo! más más más más chiquito </h5>
+            <h6> Hola, mundo! más más más más más chiquito </h6>
+            <p> Esto es para poner un parráfo </p>
+        </div>-->
+         
+        <main>
+            <div class="titulo-web">
+                <h1> Web gatuna </h1>
+            </div>
+            <div class="indice">
+                <h2> Ìndice </h2>
+                 <!-- Enlances internos-->
+                <ol>
+                    <li> <a href="#Parrafo1"> Imágenes de gatos</a> </li>
+                    <li> <a href="#Parrafo2"> Sobre los gatos...</a> </li>
+                    <li> <a href="#Parrafo3"> Queremos conocer tu gatito! </a> </li>
+                    <li> <a href="#Parrafo4"> Información adicional </a> </li>
+                </ol>
+            </div>
+            <h2 id="Parrafo1"> Imágenes de gatos </h2>
+            <!-- src (source, fuente, link) y alt son atributos-->
+            <!-- `Pegar dirección para poner imágenes desde la web-->
+            <img src="http://3.bp.blogspot.com/-AMQf7on8nuY/UbtRxOLeRyI/AAAAAAAAACs/nKmm66KQdJE/s1600/gatitos-bebe-3.jpg">
+            <!--<br> Para saltos de linea-->
+            <!-- Poner / y dirección de la ubicación en tu compu para poner imágenes desde tu compu-->
+            <img src="/imagenes/gato-770x579.jpg">
+
+            <!-- Listas-->
+
+            <h2 id="Parrafo2">Sobre los gatos...</h2>
+            <div>
+                <p>Cosas que <strong>aman</strong></p> <!-- strong es un elemento para hacer la letra en negrita-->
+                <!-- Lista no ordenada con elemento ul (unordered list)-->
+                <ul>
+                    <li>Juguetes</li> <!-- li es el item de la lista-->
+                    <li>Cajas</li>
+                    <li>Dormir</li>
+                </ul>
+                
+                <p>Cosas que <strong>odian</strong></p>
+                <!-- Lista ordenada con elemento ol (ordered list)-->
+                <ol>
+                    <li>Muchas caricias</li> <!-- li es el item de la lista-->
+                    <li>No tener el plato lleno</li>
+                    <li>Citrícos</li>
+                </ol>
+
+                <img src="/imagenes/tulips.png" alt="Tulipanes">
+                <img src="/imagenes/kitty.png" alt="Gato con computadora">
+            </div>
+
+            <h2 id="Parrafo3">Queremos conocer tu gatito!</h2>
+
+            <!-- Formularios -->
+            <!-- Formulario con radio -->
+            <p>¿Tu gatito es cachorro o adulto?</p>
+                <label for="cachorro">
+                    <input id="cachorro" type="radio" value="cachorro" name="edad"> Cachorro
+                </label>
+                <label for="adulto">
+                    <input id="adulto" type="radio" value="adulto" name="edad"> Adulto
+                </label>
+            <!-- Formulario con checkbox -->
+            <br>
+            <p>¿Qué tipo de gato es el tuyo?</p>
+                <label for="cariñoso">
+                    <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad"> Cariñoso
+                </label>
+                <label for="jugueton">
+                    <input id="jugueton" type="checkbox" value="jugueton" name="personalidad"> Juguetón
+                </label>
+                <label for="enojon">
+                    <input id="enojon" type="checkbox" value="enojon" name="personalidad"> Enojón
+                </label>
+                <label for="perezoso">
+                    <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso
+                </label>
+                <label for="travieso">
+                    <input id="travieso" type="checkbox" value="travieso" name="personalidad"> Travieso
+                </label>     
+            <br>
+            <p> ¿Cómo se llama tu gatito? </p>
+                <label for="nombre">
+                    <input id="nombre" type="text" value="" name="nombre">
+                </label>
+            <br>
+
+            <h2 id="Parrafo4">Información adicional</h2>
+             <!-- Enlances externos-->
+             <!-- Anidados a un texto -->
+            <p> ¿Te interesa conocer más acerca de los gatos? Haz <a href="https://www.expertoanimal.com/caracteristicas-del-gato-24481.html"> clic</a> en la imagen! </p>
+            <!-- Anidados a una imagen -->
+            <a href="https://www.expertoanimal.com/caracteristicas-del-gato-24481.html"> <img src="https://i.pinimg.com/originals/4e/be/81/4ebe8133d5faef826924b6cf2d444a5c.jpg"></a> 
+
+            <footer> 
+                <p><i>Página creada por <em>Fer Aquino</em> en Tecnolochicas PRO</i></p>
+            </footer>
+        </main>
+
+        
+    </body>
+</html>
+<!-- </..> Marca el final de la etiqueta -->
